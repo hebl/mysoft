@@ -17,3 +17,9 @@ tlmgr update --all
 ```
 tlmgr install ctex environ trimspaces zhnumber ntheorem amsmath hyperref txfonts enumitem dirtree titlesec multirow times jknapltx symbol zapfding rsfs tipa subfigure xindy substr imakeidx datatool xfor mfirstuc everypage breakcites draftwatermark glossaries placeins tocbibind footmisc
 ```
+
+## 安装默认字体
+
+```
+tlmgr install collection-fontsrecommended
+```
