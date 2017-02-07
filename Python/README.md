@@ -28,8 +28,10 @@ brew install python3
 
 ## 包
 
-使用`pip`安装
+使用`pip3`安装
+
+`pip`源建议使用国内的aliyun镜像 [~/.pip/pip.conf](pip.conf)
 
 ```
-pip install numpy scipy matplotlib pandas ipython jupyter astropy
+pip3 install numpy scipy matplotlib pandas ipython jupyter astropy
 ```
