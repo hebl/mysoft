@@ -15,7 +15,7 @@ yum install gdbm-devel sqlite-devel xz-devel gcc gcc-c++ make bzip2-devel openss
 编译:
 
 ```
-./configure --prefix=/usr/local --enable-shared --enable-ipv6
+./configure --prefix=/usr/local --enable-shared --enable-ipv6 --enable-optimizations
 make -j10
 sudo make install 
 ```
