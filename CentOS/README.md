@@ -34,6 +34,14 @@ systemctl disable NetworkManager
 systemctl disable NetworkManager-wait-online
 ```
 
+- ntpdate 服务
+
+根据需要修改`/etc/ntp/step-tickers` 第一行为主时间服务器，第二行为备用。
+
+```
+systemctl enable ntpdate
+````
+
 ### 软件安装
 
 ```
