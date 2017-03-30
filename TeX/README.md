@@ -23,3 +23,9 @@ tlmgr install ctex environ trimspaces zhnumber ntheorem amsmath hyperref txfonts
 ```
 tlmgr install collection-fontsrecommended
 ```
+
+## 更新环境
+
+```
+fmtutil-sys --all
+```
